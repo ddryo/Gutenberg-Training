@@ -9,4 +9,4 @@
 ただし内容は div を吐き出すだけのカスタムブロックが１個追加されるだけ。
 
 guten-01 ディレクトリで `npm install` すれば必要な node_modules が揃って開発環境が構築できる。
-`npm start` すれば開発スタート。
+`npm run start` すれば開発スタート。

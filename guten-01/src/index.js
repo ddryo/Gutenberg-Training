@@ -1,6 +1,5 @@
 import {registerBlockType} from '@wordpress/blocks';
 
-console.log('aaa');
 registerBlockType('myguten/test-block', {
     title: 'Basic Example',
     icon: 'smiley',
