@@ -1,0 +1,14 @@
+{
+    "name": "myguten-block",
+    "version": "1.0.0",
+    "description": "Test block",
+    "main": "block.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "wp-scripts start",
+        "build": "wp-scripts build",
+        "check-licenses": "wp-scripts check-licenses"
+    },
+    "author": "mkaz",
+    "license": "GPL-2.0-only"
+}
