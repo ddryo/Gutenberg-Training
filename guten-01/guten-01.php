@@ -6,7 +6,7 @@
 if( !defined( 'ABSPATH' ) ) exit;
 
 // カスタムブロック用のスクリプトを追加
-add_action( 'enqueue_block_editor_assets', function() {
+add_action( 'init', function() {
 
     $asset_file = include( plugin_dir_path( __FILE__ ) . 'build/index.asset.php');
     
