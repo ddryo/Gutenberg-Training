@@ -14,5 +14,21 @@ guten-01 ディレクトリで `npm install` すれば必要な node_modules が
 
 ```bash
 $ npm run build #本番用（ちゃんと圧縮したやつ）
-$ npm star #開発用（圧縮されない / ファイル保存時に自動ビルドしてくれる）
+$ npm start #開発用（圧縮されない / ファイル保存時に自動ビルドしてくれる）
+```
+
+## guten-fa
+
+`<FontAwesomeIcon>`と`<FontIconPicker>`のテスト用。
+
+_まだうまく使えるようになってないです。_
+
+WP5.3 以上じゃないと動かない。
+
+### ビルド
+
+「guten-01」とは違い、`npm start`でも圧縮するようにしている。
+
+```bash
+$ npm start
 ```

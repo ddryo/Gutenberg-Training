@@ -1,0 +1,37 @@
+.rfip{
+    width: 100%;
+    margin: 0;
+}
+.rfipbtn{
+    width: 100%;
+}
+
+.rfipdropdown{
+    width: 100%;
+    left: 0 !important;
+}
+.fip-spacer{
+    height: 400px;
+}
+.rfip--open + .fip-spacer{
+    height: 400px;
+}
+
+.iconBox{
+    display: flex;
+    align-items: center;
+    line-height: 1;
+}
+.iconBox .__icon{
+
+}
+.iconBox .__class{
+    margin-left: 1em;
+}
+.iconBox .__icon > i{
+    font-size: 80px;
+}
+.iconBox .__icon > svg{
+    width: 80px;
+    height: 80px;
+}
