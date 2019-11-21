@@ -1,5 +1,9 @@
 # Gutenberg の練習
 
+各ディレクトリが別々のプラグインです。
+
+それぞれのディレクトリで`npm install`すればビルド環境整います。（たぶん）
+
 ## guten-01
 
 ハンドブックの[JavaScript Build Setup](https://developer.wordpress.org/block-editor/tutorials/javascript/js-build-setup/) 通りに環境構築してみたやつ。
