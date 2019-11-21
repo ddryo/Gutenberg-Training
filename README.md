@@ -8,5 +8,11 @@
 
 ただし内容は div を吐き出すだけのカスタムブロックが１個追加されるだけ。
 
-guten-01 ディレクトリで `npm install` すれば必要な node_modules が揃って開発環境が構築できる。
-`npm run start` すれば開発スタート。
+guten-01 ディレクトリで `npm install` すれば必要な node_modules が揃って開発環境が構築できます。
+
+### ビルド
+
+```bash
+$ npm run build #本番用（ちゃんと圧縮したやつ）
+$ npm star #開発用（圧縮されない / ファイル保存時に自動ビルドしてくれる）
+```
